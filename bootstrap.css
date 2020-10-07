@@ -1,0 +1,9 @@
+.nav-link:active, .nav-link:hover
+{
+	color:red;
+	border-bottom:2px solid red;
+}
+.navbar
+{
+	border-bottom: 1px solid #dbdbdb;
+}
