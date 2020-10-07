@@ -1,0 +1,73 @@
+*{
+  font-family:Lucidatypewriter, monospace;
+}
+body{
+  background: url("https://www.wallpapertip.com/wmimgs/126-1260282_valorant-wallpaper-hd.png");
+}
+p{
+  color:white;
+}
+h1{
+  color:white;
+  font-size: 300%;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+td{
+  color:white;
+  padding: 3px;
+  font-size: 25px;
+}
+hr{
+  border: 1px solid white;
+  border-radius: 5px;
+  width:50%;
+}
+input{
+font-size: 20px;
+padding: 7px;
+margin-bottom: 20px;
+background: transparent;
+border: none;
+border-bottom: 2px solid white;
+color: white;
+}
+input:focus{
+  background: transparent;
+  outline: none;
+}
+input[type="text"],
+input[type="date"],
+input[type="password"],
+input[type="email"]{
+  width: 100%;
+}
+input:hover{
+  border-bottom: 2px solid gray;
+}
+span{
+  text-align: end;
+}
+input:valid {
+  border-bottom: 2px solid lime;
+  background:transparent;
+}
+input:focus:invalid {
+  border-bottom: 2px solid red;
+   
+}
+input:invalid{
+  border-bottom: 2px solid white;
+}
+option{
+    padding: 10px;
+  align-content: center;
+}
+select{
+    padding: 10px;
+  align-content: center;
+  font-size: 15px;
+   font-family:Lucidatypewriter, monospace;
+}
+

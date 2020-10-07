@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>Form Validation</title>
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+ <script src="js/script.js"></script>
+</head>
+
+<body>
+  <form id="form">
+<center>
+<h1> Registration </h1>
+ <Br>
+<hr>
+<table>
+<tr>
+<td align ="left"> Username:</td>
+</tr>
+<tr>
+<td>
+<input type="text" id="username" name="username" placeholder="Enter your username here" minlength="8" maxlength="15" required/>
+</td>
+</tr>
+<tr>
+<td align ="left"> Password:</td>
+</tr>
+<tr>
+<td>
+<input type="password" id="password" name="password" placeholder="Enter your password here" minlength="8" maxlength="15" required/>
+</td>
+</tr>
+<tr>
+<td align ="left"> Email:</td>
+</tr>
+<tr>
+<td>
+<input type="Email" id="email2" name="email2" placeholder="Enter your Email here" required/>
+</td>
+</tr>
+<tr>
+<td align ="left"> Name:</td>
+</tr>
+<tr>
+<td>
+<input type="text" id="fname" name="fname" placeholder="First Name" required/>
+</td>
+</tr>
+<tr>
+<td>
+<input type="text" id="lname" name="lname" placeholder="Last Name" required/>
+</td>
+</tr>
+<tr>
+<td align ="left"> Gender: </td>
+</tr>
+<tr>
+  <br>
+<td>
+<input type="radio" id="gender" name="gender"value = "male"selected="selected"/>
+<label for="gender">Male</label>
+<input type="radio"id="gender" name="gender" value="female"/>
+<label for="gender">Female</label>
+<input type="radio"id="gender" name="gender"value="others"/>
+<label for="gender">Others</label>            
+</td>
+</tr>
+<tr>
+<td align ="left"> Birthday:</td>
+</tr>
+<tr>
+<td>
+<input type="date" required>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+Register 
+<select name="drpLoginType" id="drpLoginType">
+<option value="betatest">for Trial Run</option>
+<option value="alphatest">for Full Package</option>
+</select>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" id="termsandcon2" name="termsandcon" value="termsandcon"/>
+<label for="termsandcon">I accept the terms and conditions.</label>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" id="emailsubs" name="emailsubs" value="emailsubs"/>
+<label for="emailsubs">Sign up for the newsletter.</label>
+</td>
+</tr>
+  <br>
+<tr>
+<td colspan="2" align="Left">
+<button id="btnLogin" onClick="window.location.reload();">Reset</button>
+</td>
+<td colspan="2" align="right">
+<button id="btnLogin" onClick="Alert()">Submit</button>
+</td>
+</tr>
+</table>
+</center>
+  </form>
+
+</body>
+</html>
