@@ -1,0 +1,261 @@
+body{
+    font-family: 'Arial';
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration: none;
+  }
+  header{
+   width:100%;
+  padding:5px;
+  height:400px;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-medical-health-and-safety-blue-banner-image_260841.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text2{
+    width:20%;
+    padding: 30px;
+    margin-left: 300px;
+  }
+  .h20{
+    margin-top:170px;
+    font-size:300%;
+    width:100%;
+    text-align:left;
+  }
+  
+  blockquote {
+    line-height: 2em;
+    text-align: justify;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .container{
+    margin-top: 30px;
+  } 
+  
+  .container-fluid{
+    margin-top: 7%;
+  }
+  
+  .content{
+    position: relative;
+    width: 48%;
+    margin: 10px;
+    padding: 15px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0px 0px 5px #ddd;
+  }
+
+  
+  .content:hover .overlay {
+    opacity: 1;
+  }
+  
+  .title-C26 {
+    font-size: 30px;
+    color: black;
+  }
+  .author{
+        text-transform: uppercase;
+  }
+  .date{
+    font-size: 1px;
+    color: #231f20;
+  }
+  .mainarticlepicture{
+      margin-right:50px;    
+      width: 100%;
+      height: auto;
+  }
+  footer{
+    margin-top:10%;
+    background-color: black;
+    text-align:center;
+    color: white;
+    float:center;
+  }
+  .fooot{
+      width: 100px;
+  }
+  .foottext{
+      margin: auto;
+  }
+  .logo{
+    margin-top: 2px;
+    width: 30px;
+    height: 30px;
+  }
+  #image {
+    display: inline-block;
+}
+.backpic{
+  margin:20px;  
+  width:540px;
+  height:292px;
+  float:left;
+}
+p{
+    font-size: 20px;
+}
+.backg{
+    float:center;
+    text-align:center;
+    border-bottom: 5px transparent;
+}
+hr{
+    color: transparent;
+}
+h2{
+    margin-left:250px;
+}
+
+.backpic2{
+    margin:20px;
+    width:60%;
+    float:left;
+  }
+  .prevpic{
+      width:80%;
+  }
+  .maill{
+    margin: 0;
+	padding: 36px 0 36px 50px;
+	list-style: none;
+	background-image: url("https://image.flaticon.com/icons/png/512/8/8807.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+    background-size: 25px;
+    font-size: 14px;
+  }
+
+  .telephone{
+    margin: 0;
+    padding: 36px 0 36px 50px;
+	list-style: none;
+	background-image: url("https://i.pinimg.com/originals/f8/ed/4b/f8ed4b8e28b1b1f3e7ec638c4f93abef.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+    background-size: 25px;
+    font-size: 14px;
+  }
+  .phone{
+    margin: 0;
+    padding: 36px 0 36px 50px;
+	list-style: none;
+	background-image: url("https://images.vexels.com/media/users/3/157570/isolated/preview/4b39b362c76ea5a00de62f8ff839b5ed-simple-smartphone-icon-by-vexels.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+    background-size: 25px;
+    font-size: 14px;
+  }
+  .facebook{
+    margin: 0;
+    padding: 36px 0 36px 50px;
+	list-style: none;
+	background-image: url("https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-facebook-2019-circle-512.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+    background-size: 25px;
+    font-size: 14px;
+  }
+  .twitter{
+    margin: 0;
+    padding: 36px 0 36px 50px;
+	list-style: none;
+	background-image: url("https://seeklogo.net/wp-content/uploads/2016/11/twitter-icon-circle-blue-logo-preview-400x400.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+    background-size: 25px;
+    font-size: 14px;
+  }
+  .instagram{
+    margin: 0;
+    padding: 36px 0 36px 50px;
+	list-style: none;
+	background-image: url("https://i.pinimg.com/originals/b4/14/76/b414768e7af1948afcbafb9bd4b0fd12.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+    background-size: 25px;
+    font-size: 14px;
+  }
+  .discord{
+    margin: 0;
+    padding: 36px 0 36px 50px;
+	list-style: none;
+	background-image: url("https://logo-logos.com/wp-content/uploads/2018/03/Discord_icon.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+    background-size: 25px;
+    font-size: 14px;
+  }
+td{
+  color:black;
+  padding: 3px;
+  font-size: 25px;
+}
+hr{
+  border: 1px solid white;
+  border-radius: 5px;
+  width:50%;
+}
+input{
+font-size: 20px;
+padding: 7px;
+margin-bottom: 20px;
+background: transparent;
+border: none;
+border-bottom: 2px solid white;
+color: black;
+}
+input:focus{
+  background: transparent;
+  outline: none;
+}
+input[type="text"],
+input[type="date"],
+input[type="password"],
+input[type="email"]{
+  width: 100%;
+}
+input:hover{
+  border-bottom: 2px solid gray;
+}
+input:valid {
+    border-bottom: 2px solid lime;
+    background:transparent;
+  }
+  input:focus:invalid {
+    border-bottom: 2px solid red;
+     
+  }
+  input:invalid{
+    border-bottom: 2px solid black;
+  }
+  .tablelist{
+      font-size: 15px;
+      padding: 0px 50px 0px 50px;
+      border-bottom: 1px black;
+  }
+  th{
+     text-align:inherit;
+     border-bottom: 1px black;
+      padding: 0px 50px 0px 50px;
+  }
+.table2{
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: red;
+} 
