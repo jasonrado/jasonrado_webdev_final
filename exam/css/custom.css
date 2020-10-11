@@ -224,7 +224,7 @@ input[type="text"],
 input[type="date"],
 input[type="password"],
 input[type="email"]{
-  width: 100%;
+  width: 393px;
 }
 input:hover{
   border-bottom: 2px solid gray;
@@ -255,7 +255,7 @@ input:valid {
     margin-bottom: 1rem;
     color: #212529;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.nav-tabs .nav-tabs.active, .nav-tabs .show>.nav-tabs {
   color: #fff;
-  background-color: red;
-} 
+  background-color: #007bff;
+}
