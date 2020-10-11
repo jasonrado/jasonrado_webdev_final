@@ -1,0 +1,48 @@
+.navbar{
+    padding: .5rem 1rem;
+    align-items:center;
+
+}
+.nav{
+    display:flex;
+}
+.profpic{
+    width: 30px;
+    border-radius: 100%;
+    float: left;
+    margin-top: -8px;
+    position: relative;
+}
+.sd{
+    margin-top:5px;
+    margin-right: 80px; 
+}
+.navbar-brand{
+    display:flex;
+    margin-left: 80px;
+}
+.instalogo{
+    width: 125%;
+    margin-top: 5px;
+}
+.container-fluid{
+    max-width: 1000px;
+}
+.nav-pills{
+    margin-top:50px;
+}
+.profpic2{
+    width: 12%;
+    border-radius: 100%;
+    margin: 3px 15px 3px 3px;
+}
+#commentbox {
+    border: 0px;
+    outline: none;
+    padding: 5x;
+    float: left;
+    margin: 0px;
+}
+#commentbox_btn {
+    float: right;
+}
